@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 2px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.active{
+    color: #E63946;
+}
+
+.nav-btn{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px 20px;
+}
+
+/* main */
+.herosection{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+}
+.hero-left{
+    width: 47vw;
+}
+
+.demo{
+    height: 11vh;
+    width: 22vw;
+    background-color: white;
+    border-radius: 100%;
+    position: relative;
+    bottom: 110px;
+    z-index: -1;
+    left: 45px;
+    box-shadow: 0px 10px 20px 0px  gray;
+}
+
+.hero-right{
+    width: 60vw;
+}
+
+.hero-right::before{
+    content: "";
+    background: url("../images/right-box.svg");
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+    z-index: -1;
+}
+
+.hero-right p{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 200%;
+}
+
+.hero-right h1{
+    font-family: 'Oleo Script Swash Caps', sans-serif;
+    font-size: 60px;
+}
+
+.left-bgs{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+}
+
+.right-btn{
+    background-color: #011627;
+    color: #ffff;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.hero-img {
+    width: 65%;
+}
+
+.hero-img img{
+    width: 100%;
+}
+
+.right-icons{
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+}
+
+.s-icon{
+    margin: 0px 20px;
+}
