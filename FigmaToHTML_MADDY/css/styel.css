@@ -14,6 +14,10 @@ nav{
     height: 15vh;
 }
 
+.logo{
+    z-index: 2;
+}
+
 nav ul{
     display: flex;
     list-style: none;
@@ -44,8 +48,25 @@ nav ul li a {
     align-items: center;
     height: 80vh;
 }
+
+
 .hero-left{
     width: 47vw;
+}
+
+/* .hero-img{
+
+} */
+
+.hero-img {
+    width: 65%;
+    position: relative;
+}
+
+.hero-img img{
+    width: 28vw;
+    position: fixed;
+    bottom: 80px;
 }
 
 .demo{
@@ -53,7 +74,7 @@ nav ul li a {
     width: 22vw;
     background-color: white;
     border-radius: 100%;
-    position: relative;
+    position: fixed;
     bottom: 110px;
     z-index: -1;
     left: 45px;
@@ -83,7 +104,7 @@ nav ul li a {
 
 .hero-right h1{
     font-family: 'Oleo Script Swash Caps', sans-serif;
-    font-size: 60px;
+    font-size: 3rem;
 }
 
 .left-bgs{
@@ -103,13 +124,7 @@ nav ul li a {
     cursor: pointer;
 }
 
-.hero-img {
-    width: 65%;
-}
 
-.hero-img img{
-    width: 100%;
-}
 
 .right-icons{
     position: absolute;
@@ -119,4 +134,16 @@ nav ul li a {
 
 .s-icon{
     margin: 0px 20px;
+}
+
+.bars{
+    display: none;
+}
+
+.mb-left-bg{
+    display: none;
+}
+
+.mbl-nav{
+    display: none;
 }

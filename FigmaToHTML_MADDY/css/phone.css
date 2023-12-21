@@ -1,0 +1,46 @@
+@media (max-width : 630px){
+    nav ul{
+        display: none;
+    }
+    nav{
+        margin: 0px auto;
+        width: 80vw;
+        justify-content: space-between;
+    }
+
+    .left-bgs{
+        display: none;
+    }
+
+    .mb-left-bg{
+        display: block;
+        position: absolute;
+        top: 0;
+        height: 100%;
+    }
+
+    .bars{
+        display: block;
+        height: 40px;
+        width: 35px;
+        box-shadow: 0px 20px 20px gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bars img{
+        height: 100%;
+        width: 30px;
+    }
+
+    .mbl-nav{
+        display: flex;
+        background-color: #FFF9C6;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        justify-content: center;
+    }
+}
