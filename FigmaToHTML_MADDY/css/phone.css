@@ -41,6 +41,7 @@
         top: 0;
         width: 100%;
         justify-content: center;
+        align-items: center;
     }
 
     .cross-menu{
@@ -59,5 +60,18 @@
     .cross-menu img{
         height: 100%;
         width: 30px;
+    }
+
+    .nav-items{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-items li a{
+        font-size: 20px;
+        color: black;
+        text-decoration: none;
     }
 }
